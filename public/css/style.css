@@ -159,7 +159,7 @@ figure {
 .fh5co-nav ul li a {
   font-size: 18px;
   padding: 30px 15px;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.9);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -925,6 +925,7 @@ figure {
   text-transform: uppercase;
   padding-left: 30px;
   padding-right: 30px;
+  font-family: "Mitr", sans-serif;
 }
 #fh5co-started .btn:hover {
   background: #009f56 !important;
@@ -999,7 +1000,7 @@ figure {
   position: absolute;
   z-index: 1901;
   width: 270px;
-  background: black;
+  background: #2b2b2b;
   top: 0;
   right: 0;
   top: 0;
@@ -1015,6 +1016,7 @@ figure {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  font-family: "Mitr", sans-serif;
 }
 @media screen and (max-width: 768px) {
   #fh5co-offcanvas {
@@ -1476,9 +1478,13 @@ figure {
 }
 
 .kh-primary-h {
-  color: #6cc071;
+  color: #f48124;
 }
 
 .kh-secondary-h {
   color: #28b9ec;
+}
+
+input {
+  font-family: "Mitr", sans-serif;
 }
