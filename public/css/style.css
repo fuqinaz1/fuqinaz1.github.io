@@ -51,7 +51,7 @@ body {
 }
 
 a {
-  color: #f36363;
+  color: #ec1d7f;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -539,7 +539,7 @@ figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #f36363;
+  color: #ec1d7f;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -882,7 +882,7 @@ figure {
   height: 56px;
   margin-top: -30px;
   /* background: #f36363; */
-  background: #f8db28;
+  background: #ee5ca0;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
