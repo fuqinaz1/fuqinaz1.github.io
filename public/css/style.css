@@ -15,7 +15,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Mitr", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -581,7 +581,7 @@ figure {
   font-size: 23px;
   content: "\e9f4";
 }
-.fh5co-contact-info ul li.email:before {
+.fh5co-contact-info ul li.icon-facebook:before {
   font-size: 23px;
   content: "\e9da";
 }
