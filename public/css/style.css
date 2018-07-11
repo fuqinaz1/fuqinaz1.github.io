@@ -1496,3 +1496,48 @@ input {
   margin: 15px;
   width: 40%;
 }
+
+.kh-fa-icon i {
+  color: #ec1d7f;
+  font-size: 20px;
+}
+.kh-fa-icon ul.icon {
+  padding-left: 20px;
+  list-style: none;
+}
+
+.kh-fa-icon li {
+  margin-bottom: 10px;
+}
+
+.kh-fa-icon ul li:before {
+  font-family: "FontAwesome";
+  color: #ec1d7f;
+  margin: 0 5px 0 -15px;
+
+  position: absolute;
+  left: 0;
+  top: 0.05em;
+
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.kh-fa-icon ul li.map:before {
+  content: "\f3c5";
+}
+
+.kh-fa-icon ul li.day:before {
+  content: "\f073";
+}
+
+.kh-fa-icon ul li.time:before {
+  content: "\f017";
+}
