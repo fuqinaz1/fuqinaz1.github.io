@@ -291,6 +291,7 @@ figure {
   left: 0;
   right: 0;
   background: rgba(255, 242, 28, 0.5);
+  /* background: url("/images/KH_yellow_stripe.png"); */
   /* background: -moz-linear-gradient(
     left,
     rgba(255, 242, 28, 0.5) 0%,
@@ -1497,7 +1498,7 @@ input {
   width: 40%;
 }
 
-.kh-fa-icon i {
+.kh-fa-icon {
   color: #ec1d7f;
   font-size: 20px;
 }
@@ -1540,4 +1541,8 @@ input {
 
 .kh-fa-icon ul li.time:before {
   content: "\f017";
+}
+
+.kh-header-image {
+  background-image: url(images/img_bg_2.jpg);
 }
