@@ -1,0 +1,26 @@
+[debug] [2018-07-23T13:04:56.759Z] ----------------------------------------------------------------------
+[debug] [2018-07-23T13:04:56.761Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-07-23T13:04:56.762Z] CLI Version:   3.19.3
+[debug] [2018-07-23T13:04:56.762Z] Platform:      darwin
+[debug] [2018-07-23T13:04:56.762Z] Node Version:  v10.5.0
+[debug] [2018-07-23T13:04:56.766Z] Time:          Mon Jul 23 2018 20:04:56 GMT+0700 (Indochina Time)
+[debug] [2018-07-23T13:04:56.766Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-23T13:04:56.779Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-23T13:04:56.779Z] > authorizing via signed-in user
+[debug] [2018-07-23T13:04:56.783Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/kidhero-1  
+  
+ Mon Jul 23 2018 20:04:56 GMT+0700 (Indochina Time)
+[debug] [2018-07-23T13:04:58.015Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-23T13:04:58.016Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/kidhero-1/tokens  
+  
+ Mon Jul 23 2018 20:04:58 GMT+0700 (Indochina Time)
+[debug] [2018-07-23T13:04:58.975Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'kidhero-1'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing public directory for upload...
+[debug] [2018-07-23T13:05:02.589Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/kidhero-1/uploads/-LI6EP0a8X1Lgcw1znH8?fileCount=162&message=  
+  
+ Mon Jul 23 2018 20:05:02 GMT+0700 (Indochina Time)

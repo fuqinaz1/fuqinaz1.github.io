@@ -37,24 +37,10 @@
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
 
-	<!-- <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet"> -->
 	<link href="https://fonts.googleapis.com/css?family=Mitr:300,400" rel="stylesheet">
-	<!-- <link href="https://fonts.googleapis.com/css?family=Sriracha" rel="stylesheet"> -->
 
-	<!-- Bootstrap 4 -->
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-	<!-- Popper JS -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-	<!-- end bootstrap 4 -->
 
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -75,6 +61,35 @@
 	<!-- title icon -->
 	<link rel="shortcut icon" href="images/favicon_whbg_QCz_icon.ico" />
 
+	<!-- animate scroll -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			// Add smooth scrolling to all links
+			$("a").on('click', function (event) {
+
+				// Make sure this.hash has a value before overriding default behavior
+				if (this.hash !== "") {
+					// Prevent default anchor click behavior
+					event.preventDefault();
+
+					// Store hash
+					var hash = this.hash;
+
+					// Using jQuery's animate() method to add smooth page scroll
+					// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+					$('html, body').animate({
+						scrollTop: $(hash).offset().top
+					}, 800, function () {
+
+						// Add hash (#) to URL when done scrolling (default click behavior)
+						window.location.hash = hash;
+					});
+				} // End if
+			});
+		});
+	</script>
 
 
 </head>
@@ -108,8 +123,8 @@
 							</li>
 
 							<li class="has-dropdown">
-								<a href="services.html">Services</a>
-								<ul class="dropdown">
+								<a href="#courses">Courses</a>
+								<!-- <ul class="dropdown">
 									<li>
 										<a href="weekend.html">Course</a>
 									</li>
@@ -118,7 +133,7 @@
 									</li>
 
 
-								</ul>
+								</ul> -->
 							</li>
 						</ul>
 					</div>
@@ -179,12 +194,15 @@
 								</div>
 								<h2>Play | Skill | Build Hero</h2>
 
-								<h2 style="    font-size: 30px;">สร้างทักษะ ให้ลูกพร้อมสู่ศตวรรษที่ 21</h2>
+								<h2 style="font-size: 30px;">สร้างทักษะ ให้ลูกพร้อมสู่ศตวรรษที่ 21</h2>
 								<div class="row">
 									<form class="form-inline" id="fh5co-header-subscribe">
 										<div class="col-md-6 col-md-offset-3">
 											<div class="form-group">
-												<input type=button onClick="location.href='services.html'" value='คลิกเพื่อดูรายละเอียดคอร์ส/แคมป์' class="btn btn-default btn-block">
+												<center>
+													<input type=button onClick="location.href='services.html'" value='คลิกเพื่อดูรายละเอียดคอร์ส/แคมป์' class="btn btn-default btn-block">
+												</center>
+
 												<!-- <input type="text" class="form-control" id="email" placeholder="Enter your email"> -->
 												<!-- <button type="submit" class="btn btn-default">Join Now</button> -->
 											</div>
@@ -599,142 +617,30 @@
 		<!-- End Testimonial -->
 
 		<!-- Course Card corousel -->
-		<div style="padding: 7em;">
-			<div class="container-fluid">
-				<h1 class="text-center mb-3">Bootstrap Multi-Card Carousel</h1>
-				<div id="myCarousel" class="carousel slide" data-ride="carousel">
-					<div class="carousel-inner row w-100 mx-auto">
-						<div class="carousel-item col-md-4 active">
-							<div class="card">
-								<img class="card-img-top img-fluid" src="http://placehold.it/800x600/f44242/fff" alt="Card image cap">
-								<div class="card-body">
-									<h4 class="card-title">Card 1</h4>
-									<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little
-										bit longer.</p>
-									<p class="card-text">
-										<small class="text-muted">Last updated 3 mins ago</small>
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="carousel-item col-md-4">
-							<div class="card">
-								<img class="card-img-top img-fluid" src="http://placehold.it/800x600/418cf4/fff" alt="Card image cap">
-								<div class="card-body">
-									<h4 class="card-title">Card 2</h4>
-									<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little
-										bit longer.</p>
-									<p class="card-text">
-										<small class="text-muted">Last updated 3 mins ago</small>
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="carousel-item col-md-4">
-							<div class="card">
-								<img class="card-img-top img-fluid" src="http://placehold.it/800x600/3ed846/fff" alt="Card image cap">
-								<div class="card-body">
-									<h4 class="card-title">Card 3</h4>
-									<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little
-										bit longer.</p>
-									<p class="card-text">
-										<small class="text-muted">Last updated 3 mins ago</small>
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="carousel-item col-md-4">
-							<div class="card">
-								<img class="card-img-top img-fluid" src="http://placehold.it/800x600/42ebf4/fff" alt="Card image cap">
-								<div class="card-body">
-									<h4 class="card-title">Card 4</h4>
-									<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little
-										bit longer.</p>
-									<p class="card-text">
-										<small class="text-muted">Last updated 3 mins ago</small>
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="carousel-item col-md-4">
-							<div class="card">
-								<img class="card-img-top img-fluid" src="http://placehold.it/800x600/f49b41/fff" alt="Card image cap">
-								<div class="card-body">
-									<h4 class="card-title">Card 5</h4>
-									<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little
-										bit longer.</p>
-									<p class="card-text">
-										<small class="text-muted">Last updated 3 mins ago</small>
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="carousel-item col-md-4">
-							<div class="card">
-								<img class="card-img-top img-fluid" src="http://placehold.it/800x600/f4f141/fff" alt="Card image cap">
-								<div class="card-body">
-									<h4 class="card-title">Card 6</h4>
-									<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little
-										bit longer.</p>
-									<p class="card-text">
-										<small class="text-muted">Last updated 3 mins ago</small>
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="carousel-item col-md-4">
-							<div class="card">
-								<img class="card-img-top img-fluid" src="http://placehold.it/800x600/8e41f4/fff" alt="Card image cap">
-								<div class="card-body">
-									<h4 class="card-title">Card 7</h4>
-									<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little
-										bit longer.</p>
-									<p class="card-text">
-										<small class="text-muted">Last updated 3 mins ago</small>
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Previous</span>
-					</a>
-					<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Next</span>
-					</a>
+		<div class="container" style="padding: 30px;" id="courses">
+			<a>
+				<h2 style="text-align: center;">คอร์สเรียนของเรา</h2>
+			</a>
+			<div class="scrolling-wrapper">
+				<div class="card animate-box">
+					<h4>&lt;k&gt; All Star Camp</h4>
 				</div>
+				<div class="card animate-box ">
+					<h4>&lt;k&gt; Coding Camp #1</h4>
+				</div>
+				<div class="card animate-box">
+					<h4>&lt;k&gt; Hero Junior</h4>
+				</div>
+				<div class="card animate-box">
+					<h4>&lt;k&gt; Hero Creator</h4>
+				</div>
+				<div class="card">
+					<h4>&lt;k&gt; Hero Thinker</h4>
+				</div>
+
 			</div>
 		</div>
 
-
-		<script>
-			$(document).ready(function () {
-				$("#myCarousel").on("slide.bs.carousel", function (e) {
-					var $e = $(e.relatedTarget);
-					var idx = $e.index();
-					var itemsPerSlide = 3;
-					var totalItems = $(".carousel-item").length;
-
-					if (idx >= totalItems - (itemsPerSlide - 1)) {
-						var it = itemsPerSlide - (totalItems - idx);
-						for (var i = 0; i < it; i++) {
-							// append slides to end
-							if (e.direction == "left") {
-								$(".carousel-item")
-									.eq(i)
-									.appendTo(".carousel-inner");
-							} else {
-								$(".carousel-item")
-									.eq(0)
-									.appendTo($(this).find(".carousel-inner"));
-							}
-						}
-					}
-				});
-			});
-		</script>
 
 		<!-- End Course Card Corousel -->
 
@@ -744,8 +650,8 @@
 			<div class="container">
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>รายละเอียดคอร์ส</h2>
-						<p>คอร์สของเรามีหลากหลายรูปแบบ เช่น แคมป์ระยะสั้น คอร์สระยะยาว รวมถึงแบ่งกลุ่มในการเรียนตามพัฒนาการของน้อง ๆ เพื่อประสิทธิภาพสูงสุดในการเรียนรู้</p>
+						<h2>ติดต่อเรา</h2>
+						<p>สอบถามข้อมูลเพิ่มเติม</p>
 
 					</div>
 				</div>
@@ -753,7 +659,7 @@
 					<div class="col-md-8 col-md-offset-2">
 						<form class="form-inline">
 							<div class="col-md-6 col-md-offset-3 col-sm-6">
-								<input type=button onClick="location.href='services.html'" value='คลิกเพื่อดูรายละเอียดแคมป์/คอร์ส' class="btn btn-default btn-block">
+								<input type=button onClick="location.href='http://bit.ly/addkidhero'" value='คลิกเพื่อติดต่อเรา' class="btn btn-default btn-block">
 								<!-- <p style="padding-top: 3%">คลิกเพื่อดูรายละเอียด</p>
 								</input>
 								<button type="submit" onClick="location.href='services.html'" class="btn btn-default btn-block">
