@@ -1576,6 +1576,7 @@ input {
   height: 270px;
   background: black;
   border-radius: 20px;
+  padding: 20px;
 }
 
 .scrolling-wrapper,
