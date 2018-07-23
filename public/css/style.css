@@ -65,7 +65,7 @@ a:focus {
 }
 
 p {
-  font-family: "Sriracha" !important;
+  font-family: "Mitr";
   margin-bottom: 20px;
 }
 
@@ -76,7 +76,7 @@ h4,
 h5,
 h6,
 figure {
-  color: #6cc071;
+  color: #4a4a4a;
   /* font-family: "Playfair Display", Arial, serif; */
   font-family: "Mitr", sans-serif;
   font-weight: 400;
@@ -416,7 +416,7 @@ figure {
 #fh5co-counter .display-tc .btn,
 .fh5co-cover .display-tc .btn {
   padding: 15px 30px;
-  background: #f8db28;
+  background: #ec1d7f;
   color: #fff;
   border: none !important;
   font-size: 18px;
@@ -834,7 +834,7 @@ figure {
   background: rgba(0, 0, 0, 0.6);
 }
 #fh5co-testimonial .fh5co-heading h2 {
-  color: #6cc071;
+  color: #fff;
 }
 #fh5co-testimonial .box-testimony {
   margin-bottom: 2em;
@@ -895,7 +895,7 @@ figure {
 }
 #fh5co-testimonial .box-testimony blockquote p {
   letter-spacing: 1px;
-  font-family: "Playfair Display", Arial, serif;
+  font-family: "Mitr", serif;
 }
 #fh5co-testimonial .box-testimony .author {
   line-height: 20px;
@@ -913,7 +913,7 @@ figure {
   background: #392f2f;
 }
 #fh5co-started .fh5co-heading h2 {
-  color: #6cc071;
+  color: #fff;
   margin-bottom: 20px !important;
 }
 #fh5co-started .fh5co-heading p {
@@ -922,8 +922,8 @@ figure {
 #fh5co-started .btn {
   height: 54px;
   border: none !important;
-  background: #f8db28;
-  color: #5f5f5f;
+  background: #ec1d7f;
+  color: #fff;
   font-size: 16px;
   text-transform: uppercase;
   padding-left: 30px;
@@ -1483,10 +1483,10 @@ figure {
 /* .kh-primary-h {
   color: #f48124;
 } */
-
+/* 
 .kh-secondary-h {
   color: #28b9ec;
-}
+} */
 
 input {
   font-family: "Mitr", sans-serif;
