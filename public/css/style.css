@@ -59,7 +59,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #f36363;
+  color: #ee5ca0;
   outline: none;
   text-decoration: none;
 }
@@ -430,7 +430,7 @@ figure {
 #fh5co-header .display-tc .btn:hover,
 #fh5co-counter .display-tc .btn:hover,
 .fh5co-cover .display-tc .btn:hover {
-  background: #6cc071 !important;
+  background: #ee5ca0 !important;
   -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
@@ -883,7 +883,7 @@ figure {
   height: 56px;
   margin-top: -30px;
   /* background: #f36363; */
-  background: #ee5ca0;
+  background: #ec1d7f;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -931,7 +931,7 @@ figure {
   font-family: "Mitr", sans-serif;
 }
 #fh5co-started .btn:hover {
-  background: #6cc071 !important;
+  background: #ee5ca0 !important;
   -webkit-box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75) !important;
   -moz-box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75) !important;
   box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75) !important;
