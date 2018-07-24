@@ -501,6 +501,7 @@ figure {
 .fh5co-staff {
   text-align: center;
   margin-bottom: 30px;
+  padding: 30px;
 }
 .fh5co-staff img {
   width: 170px;
@@ -1241,7 +1242,7 @@ figure {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Work Sans", Arial, sans-serif;
+  /* font-family: "Work Sans", Arial, sans-serif; */
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 30px;
@@ -1267,15 +1268,17 @@ figure {
 }
 
 .btn-primary {
-  background: #f36363;
-  color: #fff;
-  border: 2px solid #f36363;
+  background: #fff;
+  color: #ec1d7f;
+  border: 2px solid #ec1d7f;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  background: #f57b7b !important;
-  border-color: #f57b7b !important;
+  background: #ec1d7f !important;
+  border-color: #ec1d7f !important;
+  box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75) !important;
+  color: #fff;
 }
 .btn-primary.btn-outline {
   background: transparent;
