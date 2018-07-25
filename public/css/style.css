@@ -504,12 +504,12 @@ figure {
   padding: 30px;
 }
 .fh5co-staff img {
-  width: 170px;
+  width: 130px;
   margin-bottom: 20px;
-  -webkit-border-radius: 50%;
+  /* -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
-  border-radius: 50%;
+  border-radius: 50%; */
 }
 .fh5co-staff h3 {
   font-size: 24px;
@@ -1505,7 +1505,7 @@ input {
 
 .kh-fa-icon {
   /* color: #ec1d7f; */
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 .kh-fa-icon ul.icon {
   padding-left: 20px;
@@ -1574,12 +1574,13 @@ input {
   margin-right: 3px;
 }
 .card {
-  border: 1px solid white;
+  /* border: 1px solid grey; */
   width: 270px;
   height: 270px;
-  background: black;
+  background: rgb(231, 231, 231);
   border-radius: 20px;
   padding: 20px;
+  margin: 5px;
 }
 
 .scrolling-wrapper,
